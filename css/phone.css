@@ -1,0 +1,8 @@
+@media (max-width: 575.98px) {
+    body >.container {
+        flex-direction: column;
+    }
+    body >.container >.box {
+        width: 100%;
+    }
+}

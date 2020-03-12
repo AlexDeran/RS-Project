@@ -1,0 +1,110 @@
+/* fausse page accueil*/
+
+
+#fakehome{
+    background:linear-gradient(
+        rgba(96, 159, 75, 0.45), 
+        rgba(96, 159, 75, 0.45)
+    ),url("../img/rsi.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#greenRS{
+    color:#609F4B;
+}
+#blackrest{
+    color:black;
+}
+#greenRS,#blackrest{
+    font-size: 50px;
+    text-decoration:#609F4B underline;
+}
+#spanRS{
+    font-size: 30px;
+}
+
+div.cardacc{
+    background: white;
+    margin-top: 15%; 
+    margin-left: 52%;
+    text-align:center;
+    padding: 8%;   
+    width:100%;
+    opacity:0.75;
+}
+
+#valc{
+    background-color: #609F4B;
+    margin-top:2%;
+    margin-bottom:2%;
+    text-transform: capitalize;
+}
+
+
+@media all and (max-width:480px)
+{
+    #fakehome{
+        background:linear-gradient(
+            rgba(96, 159, 75, 0.45), 
+            rgba(96, 159, 75, 0.45)
+        ),url("../img/rsev1moyen.jpg");
+        margin:8%;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    div.cardacc{
+        width:auto;
+        margin:auto;
+        float:none;
+        margin-top: 6em;
+}
+#greenRS,#blackrest{
+    font-size: 10vw;
+    text-decoration:#609F4B underline;
+}
+#spanRS{
+    font-size: 6vw;
+}
+}
+
+@media(min-width:480px) and (max-width:780px)
+{
+    #fakehome{
+        background:linear-gradient(
+            rgba(96, 159, 75, 0.45), 
+            rgba(96, 159, 75, 0.45)
+        ),url("../img/rsev1moyen.jpg");
+        margin:10%;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    div.cardacc{
+        width:120%;
+        margin:auto;
+        float:none;
+    }
+
+   #greenRS,#blackrest{
+            font-size: 10vw;
+            text-decoration:#609F4B underline;
+        }
+        #spanRS{
+            font-size: 6vw;
+        }
+        
+        
+}
+
+
+@media(min-width:781px) and (max-width:979px)
+{
+    #greenRS,#blackrest{
+        font-size: 10vw;
+        text-decoration:#609F4B underline;
+    }
+    #spanRS{
+        font-size: 6vw;
+    }
+}

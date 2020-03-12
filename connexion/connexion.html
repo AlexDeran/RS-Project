@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="../css/connexion.css">
+    <title>Connexion</title>
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+</head>
+<body id="login">
+
+    <!--container form-->
+
+    <div class="containercot">
+        <img id="home" src="../img/rstransparent.png" class="img-fluid" alt="RS logo">
+        <p id="titleco" >Connexion</p>
+        <form id="signin" action="logintest.php" class="form" role="form" method="POST">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input id="name"  name="user" type="text" class="validate" required>
+                <label for="name">Identifiant</label>                          
+            </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">lock</i>
+                <input id="password"  name="password" type="password" class="validate" required>
+                <label for="password">Mot de Passe</label>                                      
+            </div>
+            <button id="valc" type="submit" class="waves-effect waves-light btn" name="connexion" value="Connexion">S'identifier </button>
+        </form>
+    </div>
+
+    <!--end form-->
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

@@ -1,0 +1,129 @@
+/* écran de connexion */
+
+.card-panel.red.accent-3{
+    text-align: center;
+    width:53%;
+    margin-top:2%;
+    margin-left:24%;
+
+}
+
+#titleco{
+    text-align:center;
+    color:black;
+    font-size:20px;
+    }
+    
+    .card-panel{
+        color:white;
+        font-size:15px;
+        text-align: justify;
+    }
+    
+    #login{
+        background: linear-gradient(
+            rgba(96, 159, 75, 0.45), 
+            rgba(96, 159, 75, 0.45)
+        ),url("../img/rsf2.jpg");
+        opacity:0.85;
+        background-size: cover;
+        text-align: center;
+    }
+    #home{
+        width:30%;
+    }
+    #valc{
+        background-color: #609F4B;
+        margin-top:2%;
+        margin-bottom:2%;
+        text-transform: capitalize;
+    }
+    
+    div.containercot{
+        background-color:white;
+        width:40%;
+        margin-left:30%;
+        margin-top:6%;
+        margin-bottom:3%;
+        padding: 2%;
+        text-align: center;
+    }
+
+
+@media all and (max-width:480px)
+{
+ #login{
+        background: linear-gradient(
+            rgba(96, 159, 75, 0.45), 
+            rgba(96, 159, 75, 0.45)
+        ),url("../img/rsev2mtestpetit.jpg");
+        width:auto;
+        margin-top: 6em;
+
+}
+
+.card-panel{
+padding: 1%;
+text-align: justify;
+font-size: 10px;
+}
+
+div.containercot{
+    width:auto;
+    margin:auto;
+    
+}
+
+}
+
+@media(min-width:480px) and (max-width:780px)
+{   #login{
+    background: linear-gradient(
+        rgba(96, 159, 75, 0.45), 
+        rgba(96, 159, 75, 0.45)
+    ),url("../img/rsev2mtest.jpg");
+    background-position: center right;
+    width:auto;
+    margin-top: 6em;
+
+}
+
+.card-panel{
+padding: 1%;
+text-align: justify;
+font-size: 10px;
+}
+
+div.containercot{
+width:auto;
+margin:auto;
+
+}
+
+}
+
+@media(min-width:781px) and (max-width:979px)
+{   #login{
+    background: linear-gradient(
+        rgba(96, 159, 75, 0.45), 
+        rgba(96, 159, 75, 0.45)
+    ),url("../img/rsev2mtest.jpg");
+    width:auto;
+    background-position: bottom;
+    margin-top: 6em;
+
+}
+
+.card-panel{
+padding: 1%;
+text-align: justify;
+font-size: 10px;
+}
+
+div.containercot{
+width:auto;
+margin:auto;
+
+}
+
+}
