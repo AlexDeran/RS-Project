@@ -36,8 +36,7 @@ CREATE TABLE `appartenance` (
 --
 
 INSERT INTO `appartenance` (`utilisateurs_nom`, `catRS_nom`) VALUES
-('Alexandre Labreveux', 'Espaces Verts'),
-('René Champard', 'Espaces Verts');
+('John Doe', 'Entretien Ménager');
 
 -- --------------------------------------------------------
 
