@@ -175,11 +175,6 @@ endif;
                     <p><strong>Quel statut pour le nouvel utilisateur ?</strong></p>
                     <br>
                     <div class="form-inline" required>
-                        <label>       
-                            <input class="with-gap" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="admin">
-                            <span id="radio">Admin</span>
-                        </label>
-                    
                         <label>
                             <input class="with-gap" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="salaries">
                             <span id="radio">Salarié</span>
@@ -187,7 +182,7 @@ endif;
                     </div>
                     <br>
                     <br>
-                    <p><strong>Quel Groupe si salarié ?</strong> 
+                    <p><strong>Quel Groupe ?</strong> 
                     <br>
                     <br> 
                         <div class="form-inline">
