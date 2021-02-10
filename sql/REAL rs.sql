@@ -38,7 +38,6 @@ CREATE TABLE `appartenance` (
 INSERT INTO `appartenance` (`utilisateurs_nom`, `catRS_nom`) VALUES
 ('André José', 'Entretien Ménager'),
 ('René Champard', 'Entretien Ménager'),
-('Alexandre Labreveux', 'Espaces Verts'),
 ('Frédéric Depuiset', 'Polyvalence');
 
 -- --------------------------------------------------------
@@ -158,8 +157,7 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `nom`, `identifiant`, `mdphash`, `statut`) VALUES
-(27, 'Brice Vanel', 'Brice', '$2y$10$SI.8MdY1XA/ArcePYSaqxeb.O5FhkuXRlJbW/0TzRkQKg9YjSptNW', 'admin'),
-(62, 'Alexandre Labreveux', 'Alexandre', '$2y$10$9qxszwJX/yxqv0Rf6nz4TedadgEsf0N.Kz2PtbGvIV4XZd4YzxMsu', 'salaries'),
+(62, 'Alexandre Labreveux', 'Alexandre', '$2y$10$9qxszwJX/yxqv0Rf6nz4TedadgEsf0N.Kz2PtbGvIV4XZd4YzxMsu', 'admin'),
 (65, 'Frédéric Depuiset', 'Frédéric', '$2y$10$9v.F3xMSja9lgm4Pmj.qsuItGNKZsDh1Q9Vrr4jQUXge1H6MgNPu2', 'salaries'),
 (66, 'René Champard', 'René', '$2y$10$3NVBMs1gdfJufl.fWgWgQ.yusE5Zw/GKz4s7pCahk5WTZfdc9QtoO', 'salaries'),
 (72, 'André José', 'André', '$2y$10$wBCdp7ajYbGnMlvztjIKlunN37RTBQenbcPOyvQ2W2njX9jRNKy36', 'salaries');
