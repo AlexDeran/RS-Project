@@ -8,4 +8,4 @@ L'agent de travail a un espace personnel via module de connexion ou il ne voit u
 
 L'administrateur, quant à lui, à la possibilité, en plus de voir tout les documents et actualités, de gérer les documents et les utilisateurs (ajout,modification et suppression).
 
-Les identifiants pour acceder aux fonctionnalités d'admin sont les suivants : ID : Alexandre, MDP : Alexandre.
+Les identifiants pour acceder aux fonctionnalités d'admin sont les suivants : ID : Admin, MDP : Alexandre.
