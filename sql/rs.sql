@@ -158,7 +158,7 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `nom`, `identifiant`, `mdphash`, `statut`) VALUES
-(1, 'Alexandre Labreveux', 'Alexandre', '$2y$10$9qxszwJX/yxqv0Rf6nz4TedadgEsf0N.Kz2PtbGvIV4XZd4YzxMsu', 'admin'),
+(1, 'Alexandre Labreveux', 'Admin', '$2y$10$9qxszwJX/yxqv0Rf6nz4TedadgEsf0N.Kz2PtbGvIV4XZd4YzxMsu', 'admin'),
 (2, 'John Doe', 'John', '$2y$10$wKBLY7qRRCDRkFcyd0J4KehMIgaRvuKMo6TBN8r/2EMo9URj5CnDm$2y$10$9qxszwJX/yxqv0Rf6nz4TedadgEsf0N.Kz2PtbGvIV4XZd4YzxMsu', 'salaries');
 
 --
